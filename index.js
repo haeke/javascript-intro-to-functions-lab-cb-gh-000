@@ -14,5 +14,15 @@ function whisper(phrase) {
 }
 
 function logShout(phrase) {
-  console.log(phrase.toUppserCase());
+  console.log(phrase.toUpperCase());
+}
+
+function logWhisper(phrase) {
+  console.log(phrase.toLowerCase());
+}
+
+function sayHiToGrandma(phrase) {
+  if (phrase.toLowerCase() === phrase) {
+    return "I can\'t hear you!";
+  }
 }
