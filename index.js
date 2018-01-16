@@ -7,4 +7,4 @@ const path = require('path');
 
 function shout(phrase) {
   return phrase.toUpperCase();
-}
+};
